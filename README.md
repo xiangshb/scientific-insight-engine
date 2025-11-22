@@ -1,37 +1,21 @@
 # Scientific Insight Engine
 
-*Automatically synced with your [v0.app](https://v0.app) deployments*
-
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/xiangshbs-projects/scientific-insight-engine)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/cdHkhA0kZL5)
 [![GitHub Pages](https://img.shields.io/badge/Deployed%20on-GitHub%20Pages-blue?style=for-the-badge&logo=github)](https://xiangshb.github.io/scientific-insight-engine/)
 
 ## Overview
 
-This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
+A scientific insight engine platform for research and discovery, built with Next.js and deployed on GitHub Pages.
 
 ## Deployment
 
-Your project is live at:
-
-**[https://vercel.com/xiangshbs-projects/scientific-insight-engine](https://vercel.com/xiangshbs-projects/scientific-insight-engine)**
-
 **GitHub Pages: [https://xiangshb.github.io/scientific-insight-engine/](https://xiangshb.github.io/scientific-insight-engine/)**
 
-## Build your app
+## Features
 
-Continue building your app on:
-
-**[https://v0.app/chat/cdHkhA0kZL5](https://v0.app/chat/cdHkhA0kZL5)**
-
-## How It Works
-
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
-5. GitHub Actions automatically deploy to GitHub Pages
+- **Intelligent Agents**: AI-powered research assistants
+- **Knowledge Network**: Interactive knowledge graph visualization
+- **Research Tools**: Advanced data analysis and visualization tools
+- **Scientific Insights**: Data-driven discovery platform
 
 ## GitHub Pages Deployment
 
@@ -59,3 +43,27 @@ npm run build
 
 ```bash
 npm run deploy
+```
+
+## Project Structure
+
+```
+scientific-insight-engine/
+├── src/
+│   ├── app/                 # Next.js app router pages
+│   ├── components/          # React components
+│   └── lib/                 # Utility functions
+├── .github/workflows/       # GitHub Actions workflows
+├── public/                  # Static assets
+└── docs/                    # Documentation
+```
+
+## Technology Stack
+
+- **Framework**: Next.js 14 with App Router
+- **Styling**: Tailwind CSS
+- **UI Components**: Shadcn/ui
+- **Charts**: Recharts
+- **Icons**: Lucide React
+- **Deployment**: GitHub Pages
+- **CI/CD**: GitHub Actions
